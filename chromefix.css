@@ -1,0 +1,7 @@
+#skin_td_sidebar_ad {
+	display: table-cell;
+	width: 1px;
+}
+#skin_container_sidebar_ad {
+	display: none;
+}

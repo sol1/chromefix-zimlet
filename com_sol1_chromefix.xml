@@ -1,0 +1,5 @@
+<zimlet name="com_sol1_chromefix" version="1.1" description="Fixes layout issues in ZCS 8.0.x and Google Chrome 45+">
+	<include>chromefix.js</include>
+	<includeCSS>chromefix.css</includeCSS>
+	<handlerObject>com_sol1_chromefix_Handler</handlerObject>
+</zimlet>
