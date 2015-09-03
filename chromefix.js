@@ -27,3 +27,8 @@ com_sol1_chromefix_Handler.prototype.init = function() {
 	document.getElementById('skin_td_main').style.width = "100%";
 	document.getElementById('skin_td_tree').style.width = "15%";
 }
+
+com_sol1_chromefix_Handler.prototype.onMsgView = function(msg, oldMsg) {
+	document.getElementById('skin_td_main').style.width = "100%";
+	document.getElementById('skin_td_tree').style.width = "15%";
+}
