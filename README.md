@@ -6,3 +6,11 @@ Google Chrome v45 suffers from layout problems inside the Zimbra web interface. 
 https://bugzilla.zimbra.com/show_bug.cgi?id=101084
 
 https://wiki.zimbra.com/wiki/Zimbra_Web_Client_in_ZCS_8.0.x_and_Google_Chrome_45%2B
+
+## Deploy
+
+zimbra@server:~$ `zmzimletctl deploy path/to/com_sol1_chromefix.zip`
+
+This installs and makes available in your default Class of Service (COS). You may need to assign its availability to other classes if you have them.
+
+Remember to uninstall this once an official patch is applied.
